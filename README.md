@@ -49,18 +49,6 @@ Validated functional correctness, pipeline latency, and saturation arithmetic vi
 <img width="1434" height="682" alt="image" src="https://github.com/user-attachments/assets/30e8a0e6-72a9-473d-8989-775b414ae336" />
 
 
-### How to Run Simulation Locally
-```bash
-# Compile the pipeline design and testbench
-iverilog -o sim.vvp fir_1d_pipeline.v fir_2d_edge_pipeline.v tb_fir_2d_edge_pipeline.v
-
-# Execute the simulation
-vvp sim.vvp
-
-# View the waveform
-gtkwave tb_fir_2d_edge_pipeline.vcd
-
-
 ## Key Achievements
 
 ✓ Designed 5-Tap Separable FIR
@@ -76,3 +64,16 @@ gtkwave tb_fir_2d_edge_pipeline.vcd
 ✓ PPA Analysis
 
 ✓ Real-time throughput comparison
+
+
+### How to Run Simulation Locally
+```bash
+# Compile the pipeline design and testbench
+iverilog -o sim.vvp fir_1d_pipeline.v fir_2d_edge_pipeline.v tb_fir_2d_edge_pipeline.v
+
+# Execute the simulation
+vvp sim.vvp
+
+# View the waveform
+gtkwave tb_fir_2d_edge_pipeline.vcd
+
