@@ -59,3 +59,20 @@ vvp sim.vvp
 
 # View the waveform
 gtkwave tb_fir_2d_edge_pipeline.vcd
+
+
+## Key Achievements
+
+✓ Designed 5-Tap Separable FIR
+
+✓ Two RTL Architectures
+
+✓ Cadence Genus Synthesis
+
+✓ Vivado Implementation
+
+✓ Functional Verification
+
+✓ PPA Analysis
+
+✓ Real-time throughput comparison
